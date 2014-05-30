@@ -19,6 +19,7 @@
 		8F4BD4641938872600D21ACF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F4BD44C1938872600D21ACF /* UIKit.framework */; };
 		8F4BD46C1938872600D21ACF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8F4BD46A1938872600D21ACF /* InfoPlist.strings */; };
 		8F4BD46E1938872600D21ACF /* ToDoListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F4BD46D1938872600D21ACF /* ToDoListTests.m */; };
+		8F4BD47819388A4000D21ACF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F4BD47719388A4000D21ACF /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		8F4BD4691938872600D21ACF /* ToDoListTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ToDoListTests-Info.plist"; sourceTree = "<group>"; };
 		8F4BD46B1938872600D21ACF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8F4BD46D1938872600D21ACF /* ToDoListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToDoListTests.m; sourceTree = "<group>"; };
+		8F4BD47719388A4000D21ACF /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 			children = (
 				8F4BD4571938872600D21ACF /* JENAppDelegate.h */,
 				8F4BD4581938872600D21ACF /* JENAppDelegate.m */,
+				8F4BD47719388A4000D21ACF /* Main.storyboard */,
 				8F4BD45A1938872600D21ACF /* Images.xcassets */,
 				8F4BD44F1938872600D21ACF /* Supporting Files */,
 			);
@@ -220,6 +223,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F4BD47819388A4000D21ACF /* Main.storyboard in Resources */,
 				8F4BD4531938872600D21ACF /* InfoPlist.strings in Resources */,
 				8F4BD45B1938872600D21ACF /* Images.xcassets in Resources */,
 			);
