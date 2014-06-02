@@ -20,6 +20,8 @@
 		8F4BD46C1938872600D21ACF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8F4BD46A1938872600D21ACF /* InfoPlist.strings */; };
 		8F4BD46E1938872600D21ACF /* ToDoListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F4BD46D1938872600D21ACF /* ToDoListTests.m */; };
 		8F4BD47819388A4000D21ACF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F4BD47719388A4000D21ACF /* Main.storyboard */; };
+		8F756EDF193CA001006590B0 /* JENAddToDoItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F756EDE193CA001006590B0 /* JENAddToDoItemViewController.m */; };
+		8F756EE2193CA2CD006590B0 /* JENToDoListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F756EE1193CA2CD006590B0 /* JENToDoListTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,10 @@
 		8F4BD46B1938872600D21ACF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8F4BD46D1938872600D21ACF /* ToDoListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToDoListTests.m; sourceTree = "<group>"; };
 		8F4BD47719388A4000D21ACF /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		8F756EDD193CA001006590B0 /* JENAddToDoItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JENAddToDoItemViewController.h; sourceTree = "<group>"; };
+		8F756EDE193CA001006590B0 /* JENAddToDoItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JENAddToDoItemViewController.m; sourceTree = "<group>"; };
+		8F756EE0193CA2CD006590B0 /* JENToDoListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JENToDoListTableViewController.h; sourceTree = "<group>"; };
+		8F756EE1193CA2CD006590B0 /* JENToDoListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JENToDoListTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +85,8 @@
 		8F4BD43C1938872500D21ACF = {
 			isa = PBXGroup;
 			children = (
+				8F756EDD193CA001006590B0 /* JENAddToDoItemViewController.h */,
+				8F756EDE193CA001006590B0 /* JENAddToDoItemViewController.m */,
 				8F4BD44E1938872600D21ACF /* ToDoList */,
 				8F4BD4671938872600D21ACF /* ToDoListTests */,
 				8F4BD4471938872600D21ACF /* Frameworks */,
@@ -112,6 +120,8 @@
 				8F4BD4571938872600D21ACF /* JENAppDelegate.h */,
 				8F4BD4581938872600D21ACF /* JENAppDelegate.m */,
 				8F4BD47719388A4000D21ACF /* Main.storyboard */,
+				8F756EE0193CA2CD006590B0 /* JENToDoListTableViewController.h */,
+				8F756EE1193CA2CD006590B0 /* JENToDoListTableViewController.m */,
 				8F4BD45A1938872600D21ACF /* Images.xcassets */,
 				8F4BD44F1938872600D21ACF /* Supporting Files */,
 			);
@@ -245,6 +255,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F4BD4591938872600D21ACF /* JENAppDelegate.m in Sources */,
+				8F756EDF193CA001006590B0 /* JENAddToDoItemViewController.m in Sources */,
+				8F756EE2193CA2CD006590B0 /* JENToDoListTableViewController.m in Sources */,
 				8F4BD4551938872600D21ACF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -442,6 +454,7 @@
 				8F4BD4731938872600D21ACF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8F4BD4741938872600D21ACF /* Build configuration list for PBXNativeTarget "ToDoListTests" */ = {
 			isa = XCConfigurationList;
@@ -450,6 +463,7 @@
 				8F4BD4761938872600D21ACF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
