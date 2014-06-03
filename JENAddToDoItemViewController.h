@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "JENToDoItem.h"
 
 @interface JENAddToDoItemViewController : UIViewController
-
+    @property JENToDoItem *toDoItem;
 @end

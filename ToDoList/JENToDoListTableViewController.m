@@ -20,7 +20,12 @@
 
 - (IBAction)unwindToList:(UIStoryboardSegue *)seque
 {
-    
+    JENAddToDoItemViewController *source = [seque sourceViewController];
+    JENToDoItem *item = source.toDoItem;
+    if (item != nil) {
+        [self.toDoItems addObject:item];
+        [self.tableView reloadData];
+    }
 }
 
 - (void)loadInitialData {

@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "JENAddToDoItemViewController.h"
 
 @interface JENToDoListTableViewController : UITableViewController
 
